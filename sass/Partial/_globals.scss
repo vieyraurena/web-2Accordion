@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: $primary-color;
+  font-family: $style-font;
+}
+
+.container-accordion {
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 3px 3px  #cccc;
+  
+}
+
+h1{
+  margin-top: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  color:$font-color;
+  margin-bottom: 15px;
+}
