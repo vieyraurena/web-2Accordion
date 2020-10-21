@@ -1,2 +1,2 @@
-# Web2-pr-cticaSASS
+# Web2-accordion
 SASS
