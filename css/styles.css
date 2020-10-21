@@ -1,0 +1,58 @@
+/*configuraciones*/
+/*Variables*/
+/*partials*/
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #7a523027;
+  font-family: sans-serif; }
+
+.container-accordion {
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 3px 3px  #cccc; }
+
+h1 {
+  margin-top: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #646464;
+  margin-bottom: 15px; }
+
+.btn-accordion {
+  width: 500px;
+  padding: 10px 40px;
+  font-family: sans-serif;
+  background-color: #c543108e;
+  color: #fff;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: 0.5px;
+  border: none;
+  border-bottom: 0.5px solid #fff;
+  border-radius: 4px;
+  position: relative; }
+  .btn-accordion:focus {
+    outline: none; }
+  .btn-accordion:hover {
+    background-color: #c54310b9; }
+
+.arrow:after {
+  content: '\25be';
+  position: absolute;
+  left: 18px; }
+
+.arrow:active:after {
+  content: '\25b4'; }
+
+.info-accordion {
+  padding: 12px;
+  font-size: 15px;
+  line-height: 22px;
+  background-color: #f8f5f1;
+  color: #646464;
+  border-radius: 4px;
+  display: block; }
